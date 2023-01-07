@@ -1,0 +1,207 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 15px 25px;
+    color: #005FAC;
+    background: #ffffff;
+    border: 0;
+    border-radius: 10px;
+}
+.subscribe{
+    color: red;
+}
+
+
+/* Header */
+.header{
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/think.jpg");
+    background-color: #0004ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    width: 500px;
+    text-align: right;
+    padding: 10px;
+    position: absolute;
+    right: 100px;
+    margin-top: 10%;
+  
+     
+
+}
+.header-content h1{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.header-content p{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Main */
+
+.girl-failures{
+    width: 1000px;
+    height: 723px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.girl-failures h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.girl-failures p{
+    margin-bottom: 10px;
+}
+
+/* My plan */
+
+.plans-content{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+}
+
+.plans-headline{
+    font-size: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.web-plan{
+    text-align: center;
+}
+
+.plan-title{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.plan-disc{
+    color: #737272;
+}
+
+
+/* My team */
+.my-team{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+        
+}
+.team-title{
+    font-size: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+.card-info{
+    padding: 10px 0;
+    border: 2px solid #0004ff;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(22, 0, 82, 0.2);
+}
+
+/* call-to-action */
+
+.call-to-action{
+    width: 1140px;
+    background-image: linear-gradient(to right,  #005FAC, #005fac8e, #005fac00 ), url("../images/time.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 60px 0 60px 65px;
+
+}
+
+.call-to-action h2{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+.footer-content{
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.footer-content h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer-left{
+    width: 475px;
+}
+
+
+.footer-disc{
+    margin-bottom: 20px;
+}
+
+.footer-right{
+    width: 325px;
+
+}
+
+
+
+input[type=email], select{
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+
+
+
